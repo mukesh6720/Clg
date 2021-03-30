@@ -1,0 +1,46 @@
+{
+	"about": [
+		{
+			"tag": "principal",
+			"patterns": "who is the principal of krce?","principal of krce"
+			"responses": "Dr.D.Srinivasan"
+		},
+        {
+            "tag": "founder",
+			"patterns": ["who is the founder of krce?","chairman of krce"],
+			"responses": "Dr.K.Ramakrishnan"
+        },
+       
+		{
+			"tag": "krce",                                                                    #### add some more questions relating this 
+			"patterns": ["Year of introduction in krce","When was the krce established?", "where is the krce located?"],
+			"responses": [2008, "samayapuram"]
+		},
+		{ 
+			"tag": "hostel",                                                                            ### add more and change the question set 
+			"patterns": ["hostel available","Is there a hostel in krce?", "is there security at hostel in krce?", "hostel fees"],
+			"responses": "yes"
+		},
+		{
+			"tag":"motto",
+			"patterns":["college motto","motivation"],
+			"responses":"Enpower through education"
+		},
+		{
+			"tag":"courses",
+			"patterns":["courses offered","courses available","no of courses available"],
+			"responses":"CSE,ECE,EEE,MECH,AI,IT,CSBS,B.tech,MBA,M.E comm,sys.,CSE,PSE"
+		},
+		
+		{
+			"tag": "labs",
+			"patterns": ["labs count","How many labs are there in krce?","no of labs in krce?"],
+			"responses": 18
+		},
+        {
+        	"tag":"language",
+        	"patterns":["ict lab languages","no of languages in ict lab"],
+        	"responses":"python,java,c,c++,datastructures,HTML,XML"
+        }
+	]
+}
